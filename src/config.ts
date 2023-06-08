@@ -4,11 +4,11 @@ config()
 
 module.exports = {
     db: {
-        username: process.env.DB_USERNAME || 'postgres',
-        password: process.env.DB_PASSWORD || 'Thomas44',
-        host: process.env.DB_HOST || '127.0.0.1',
+        username: process.env.DB_USERNAME || 'proyect_medico_user',
+        password: process.env.DB_PASSWORD || 'adnnZBEEtTJR1SXqq79p5OyjKfHdI0LF',
+        host: process.env.DB_HOST || 'dpg-chlvid64dad6k5lcpjq0-a',
         port: process.env.DB_PORT || 5432,
-        database: process.env.DB_DATABASE || 'TP-Final',
+        database: process.env.DB_DATABASE || 'proyect_medico',
     }
 }
 
